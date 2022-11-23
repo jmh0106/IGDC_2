@@ -1,28 +1,29 @@
-<a name="readme-top"></a>
+<a id="readme-top"></a>
 
-# IGDC_2
+# ✨IGDC_2✨
  <p align="center">인하대학교 게임 개발 동아리 IGDC 3팀이 개발하는 게임 프로젝트입니다.</p>
 
  ## 목차
  1. [프로젝트 소개](#프로젝트-소개)
- 2. [개발기간](#개발기간)
- 3. [멤버구성](#멤버-구성)
- 4. [사용 프로그램]()
- 5. [Commit 규칙](#Commit-규칙)
-    + [Commit message 구조](#Commit-message-구조)
-    + [Type](#Type)
-    + [Subject](#Subject)
-    + [Body](#Body)
-
---- 
+ 2. [개발 과정](#개발-과정)
+ 3. [멤버 구성](#멤버-구성)
+ 4. [사용 프로그램](#사용-프로그램)
+     + [Unity](#unity-ver)
+     + [Rider](#rider-ver)
+ 5. [To-Do List](#to-do-list)
+ 6. [Commit 규칙](#commit-규칙)
+     + [Commit message 구조](#commit-message-구조)
+     + [Type](#type)
+     + [Subject](#subject)
+     + [Body](#body) 
 
 # 프로젝트 소개
-프로젝트 사진 및 설명
+인하 디펜스는 과제를 너무 많이 내는 교수님...
 
 <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
 
-# 개발과정
- 2022.11.23 : 첫 기획 회의
+# 개발 과정
+ **2022.11.23** : 첫 기획 회의
 
  <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
 
@@ -34,14 +35,45 @@
 
  <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
 
+# 사용 프로그램
+ <img src="https://img.shields.io/badge/Unity-2021.3.14f1-Green?style=for-the-badge&logo=unity" id="unity-ver">
+
+ <img src="https://img.shields.io/badge/JetBrains Rider-2021.3.3-Green?style=for-the-badge&logo=rider" id="rider-ver">
+
+ <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
+
+# To-Do List
+ - [ ] 게임 외부
+   - [ ] 기획서 제작
+   - [ ] README 제작
+   - [ ] 프로젝트 소개 PPT 제작
+   - [ ] 프로젝트 발표하기! 
+ - [ ] 게임 씬 제작
+   - [ ] 시작 씬
+   - [ ] 스테이지 선택 씬
+   - [ ] 1 스테이지
+   - [ ] 2 스테이지
+   - [ ] 3 스테이지
+   - [ ] 4 스테이지
+   - [ ] 5 스테이지
+ - [ ] 게임 시스템 제작
+   - [ ] 게임 저장 기능
+ - [ ] 게임 UI 개발 
+   - [ ] 게임 옵션 화면
+ - [ ] 적 개발
+ - [ ] 터렛 개발
+ - [ ] ✨🎉**프로젝트 빌드하기**✨🎉
+
+ <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
+
 # Commit 규칙
  ## Commit message 구조
  기본적으로 commit message는 제목, 본문, 꼬리말로 구성합니다.
  제못만 필수사항이며, 본문과 꼬리말은 선택사항입니다.
  ```
- <type>: <subject>
+ <Type>: <Subject>
  
- <body>
+ <Body>
  ```
 
  ## Type
@@ -59,10 +91,23 @@
  ## Subject
  Type과 함께 제목을 구성합니다. 예를 들어 스테이지를 추가했다면 다음과 같이 적습니다.
  ```
+ FEAT: 스테이지 2 추가
+ ```
+ ```
  FEAT: Add Stage 2
  ```
 
  ## Body
  헤더로 표현이 가능하다면 생략이 가능합니다. 아닌 경우에는 자세한 내용을 함께 적어 본문을 구성하여 수정사항을 알 수 있게 합니다.
+ ```
+ FIX: 플레이어 이동
+
+ 플레이어가 가끔 더 빠른 속도로 이동하던 버그를 고쳤습니다.
+ ```
+ ```
+ FIX: Player move
+
+ Fixed a bug that sometimes the player moved at a faster speed. 
+ ```
 
  <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
