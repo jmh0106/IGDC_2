@@ -1,6 +1,16 @@
 <a id="readme-top"></a>
 
+<details>
+<summary align="center">QR코드</summary>
+
+<img src='https://qrcodethumb-phinf.pstatic.net/20221201_118/16698293808187afpE_PNG/13SAp.png' style="display: block; margin:auto" width="500vw">
+</details>
+
 # ✨IGDC_2✨
+ <div align="center">
+   <img src="https://cdn.discordapp.com/icons/998476599253012510/fac531bb433bc002ec3271842bfb7ad0.webp?size=96" height="150vh">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/InhaUniversity_Emblem.jpg" height="150vh">
+ </div>
  <p align="center">인하대학교 게임 개발 동아리 IGDC 3팀이 개발하는 게임 프로젝트입니다.</p>
 
  ## 목차
@@ -8,6 +18,7 @@
      + [스테이지 구성](#스테이지-구성)
      + [타워 구성](#타워-구성)
      + [적 구성](#적-구성)
+     + [개발 스킬](#개발-스킬)
  2. [개발 과정](#개발-과정)
  3. [멤버 구성](#멤버-구성)
  4. [사용 프로그램](#사용-프로그램)
@@ -32,17 +43,24 @@
 ## 적 구성
 교수님과 과제, 시험 등을 적으로 만들었다. (적 이미지 첨부)
 
+## 개발 스킬
+다양한 유니티 기능를 사용하여 최적화를\~~ 이렇게 구현을~~
+
 <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
 
 # 개발 과정
- **2022.11.23** : 첫 기획 회의
+ **2022.11.23** : 첫 기획 회의   
+ **0000.00.00** : 두번째 기획 회의   
+ **0000.00.00** : 첫 개발 시작   
+ **0000.00.00** : 개발 끝  
+ **0000.00.00** : 프로젝트 발표
 
  <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
 
 # 멤버 구성
- |정민호 이미지|박유진 이미지|이종인 이미지|
+ |<img src="https://i.imgur.com/JnjbGIu.jpeg" height="100"><br>정민호|박유진 이미지|이종인 이미지|
  |:---:|:---:|:---:|
- |[<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">](https://github.com/jmh0106)|소개링크|소개링크|
+ |[<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">](https://github.com/jmh0106)<br>[<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white">](https://www.instagram.com/dvlp_minho/)|소개링크|소개링크|
  |개발|개발, 디자인|개발, 기획|
 
  <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
@@ -80,8 +98,7 @@
 
 # Commit 규칙
  ## Commit message 구조
- 기본적으로 commit message는 제목, 본문, 꼬리말로 구성합니다.
- 제못만 필수사항이며, 본문과 꼬리말은 선택사항입니다.
+ 기본적으로 commit message는 제목, 본문, 꼬리말로 구성합니다. 제목만 필수사항이며, 본문과 꼬리말은 선택사항입니다.
  ```
  <Type>: <Subject>
  
